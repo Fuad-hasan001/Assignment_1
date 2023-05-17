@@ -1,3 +1,8 @@
+section {
+    margin-top: 130px;
+}
+
+/* banner  */
 .banner {
     position: relative;
     margin-bottom: 130px;
@@ -41,8 +46,7 @@
     border: 0;
     background: #F15B22;
     border-radius: 5px;
-    padding: 20px 20px;
-    align-items: right;
+    padding: 20px 15px;
     margin-left: 300px;
 }
 
@@ -54,10 +58,11 @@
     margin: 0 200px;
 }
 
-.container img{
+.container img {
     width: 500px;
     height: 500px;
 }
+
 .container-title {
     font-weight: 700;
     font-size: 40px;
@@ -80,3 +85,76 @@
 }
 
 /* plans section  */
+.plans {
+    margin: 130px 150px;
+    height: 200px;
+    text-align: center;
+}
+
+.plans-title {
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.plans-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+.plan img {
+    padding: 0px 50px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* call now  */
+.call-container {
+    /* width: 1000px; */
+    height: 300px;
+    margin: 200px 200px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 34, 34, 0.192) 100%), url("../images/watch.png");
+    border-radius: 10px;
+    background-blend-mode: screen;
+    /* background-repeat: no-repeat; */
+}
+
+.call-now img {
+    width: 100%;
+}
+
+.call-info {
+    width: 459px;
+    height: 182px;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.call-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.btn-call {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    height: 64px;
+    color: #F15B22;
+    padding: 20px 36px;
+    border-radius: 10px;
+    border: 0;
+}
