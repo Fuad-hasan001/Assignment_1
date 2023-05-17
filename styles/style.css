@@ -1,0 +1,82 @@
+.banner {
+    position: relative;
+    margin-bottom: 130px;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+.banner-info {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    right: 10%;
+    padding-left: 500px;
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    text-align: right;
+    height: 200px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #444343;
+    height: 50px;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: right;
+    color: #FFFFFF;
+    height: 64px;
+    border: 0;
+    background: #F15B22;
+    border-radius: 5px;
+    padding: 20px 20px;
+    align-items: right;
+    margin-left: 300px;
+}
+
+/* failures container section  */
+.container {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.container img{
+    width: 500px;
+    height: 500px;
+}
+.container-title {
+    font-weight: 700;
+    font-size: 40px;
+    width: 250px;
+    color: #151414;
+}
+
+.container-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+
+}
+
+.container-list {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    list-style: none;
+}
+
+/* plans section  */
