@@ -1,28 +1,35 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-.nav-container{
+
+/* Navigaion */
+.nav-container {
     display: flex;
     justify-content: space-between;
     margin: 50px 100px;
 }
-.nav-title{
+
+.nav-title {
     font-weight: 800;
     font-size: 45px;
 }
+
 .text-primary {
     color: #FD6E0A;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-left: 50px;
 }
-.btn{
+
+.btn {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
@@ -32,6 +39,7 @@ nav li{
     border: 0;
     padding: 18px 35px;
 }
+
 /* section {
     margin-top: 130px;
 } */
@@ -84,7 +92,7 @@ nav li{
     margin-left: 320px;
 }
 
-/* failures container section  */
+/* My failures of previous year */
 .container {
     display: flex;
     gap: 80px;
@@ -118,6 +126,7 @@ nav li{
     color: #444343;
     list-style: none;
 }
+
 
 /* plans section  */
 .plans {
@@ -155,15 +164,15 @@ nav li{
     color: #737272;
 }
 
+
+
 /* call now  */
 .call-container {
-    /* width: 1000px; */
     height: 300px;
     margin: 200px 200px;
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 34, 34, 0.192) 100%), url("../images/watch.png");
     border-radius: 10px;
     background-blend-mode: screen;
-    /* background-repeat: no-repeat; */
 }
 
 .call-now img {
@@ -195,6 +204,8 @@ nav li{
     border: 0;
 }
 
+
+
 /* footer part or contact   */
 .contact {
     display: flex;
@@ -203,9 +214,14 @@ nav li{
     color: #FFFFFF;
     padding: 130px 200px;
 }
-.contact .contact-title,.contact-description, p, .subscribe-title{
+
+.contact .contact-title,
+.contact-description,
+p,
+.subscribe-title {
     margin-bottom: 20px;
 }
+
 .contact-title {
     font-weight: 700;
     font-size: 45px;
@@ -224,7 +240,7 @@ nav li{
 .subscribe-title {
     font-weight: 600;
     font-size: 25px;
-    
+
 }
 
 .contact input[type="email"] {
